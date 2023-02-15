@@ -1,7 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { getAllProducts } from "../Api/productsApi";
-import { deleteProductById } from "../Api/productsApi";
-import { addProduct } from "../Api/productsApi";
+import { getAllProducts, addProduct, getProductById } from "../Api/productsApi";
 
 export const getListProducts = createAsyncThunk(
   "products/getListProducts",
@@ -9,8 +7,13 @@ export const getListProducts = createAsyncThunk(
 );
 
 export const addProductToList = createAsyncThunk(
-  "products/addProduct",
-  async data  => await addProduct(data)
+  "products/addProductToList",
+  async (data) => await addProduct(data)
+);
+
+export const getProduct = createAsyncThunk(
+  "products/getProduct",
+  async (id) => await getProductById(id)
 );
 
 export const productSlice = createSlice({
@@ -41,11 +44,25 @@ export const productSlice = createSlice({
     },
     [addProductToList.fulfilled]: (state, { payload }) => {
       console.log("payload", payload);
-
+      console.log("state.data", state.data);
+      state.data = [...state.data, payload]
       state.loading = false;
       state.isSuccess = true;
     },
     [addProductToList.rejected]: (state) => {
+      state.loading = false;
+      state.isSuccess = false;
+    },
+    [getProduct.pending]: (state) => {
+      state.loading = true;
+    },
+    [getProduct.fulfilled]: (state, { payload }) => {
+      console.log("payload", payload);
+
+      state.loading = false;
+      state.isSuccess = true;
+    },
+    [getProduct.rejected]: (state) => {
       state.loading = false;
       state.isSuccess = false;
     },

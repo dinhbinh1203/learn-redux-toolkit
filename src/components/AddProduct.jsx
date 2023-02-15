@@ -3,15 +3,13 @@ import { useForm } from "antd/es/form/Form";
 import { useDispatch } from "react-redux";
 import { addProductToList } from "../redux/productsSlice";
 
-
 const AddProduct = () => {
   const [form] = useForm();
   const dispatch = useDispatch();
   const onFinish = (values) => {
     console.log("Success:", values);
-    dispatch(addProductToList(values))
-    form.resetFields(["name-product", "price", "prev-price"]);
-    
+    dispatch(addProductToList(values));
+    form.resetFields(["name", "price", "prevPrice"]);
   };
   const onFinishFailed = (errorInfo) => {
     console.log("Failed:", errorInfo);
@@ -39,15 +37,13 @@ const AddProduct = () => {
     >
       <Form.Item
         label="Name Product"
-        name="name-product"
-        rules={
-          [
-            // {
-            //   required: true,
-            //   message: "Please input name of Product!",
-            // },
-          ]
-        }
+        name="name"
+        rules={[
+          {
+            required: true,
+            message: "Please input name of Product!",
+          },
+        ]}
       >
         <Input />
       </Form.Item>
@@ -76,7 +72,7 @@ const AddProduct = () => {
 
       <Form.Item
         label="Prev Price"
-        name="prev-price"
+        name="prevPrice"
         rules={[
           {
             pattern: new RegExp(/^[0-9]+$/),
