@@ -1,0 +1,219 @@
+{
+  "products": [
+    {
+      "id": "b296751a-3af8-11ed-a261-0242ac120002",
+      "name": "Bìa còng",
+      "price": 64000,
+      "prevPrice": 72000
+    },
+    {
+      "name": "Bìa đựng phân mục có nắp",
+      "price": 32500,
+      "id": "b29676e6-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Phân trang nhựa",
+      "price": 13000,
+      "prevPrice": 20000,
+      "id": "b29677ea-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Tấm lót cắt",
+      "price": 70000,
+      "prevPrice": 83000,
+      "id": "b29678d0-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Bút chì lục giác Deli",
+      "price": 16000,
+      "id": "b29679ca-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Bút chì Đức Steadtler xanh",
+      "price": 16500,
+      "id": "b2967ab0-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Bút lông bảng Thiên Long WB03",
+      "price": 7500,
+      "prevPrice": 10000,
+      "id": "b2967b8c-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Bút viết thư pháp",
+      "price": 1200,
+      "id": "b2967d76-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Gọt bút chì",
+      "price": 16000,
+      "prevPrice": 20000,
+      "id": "b2967e48-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Combo 50 ruột bút",
+      "price": 18000,
+      "id": "b2967f1a-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Set 6 bút dạ quang",
+      "price": 28000,
+      "id": "b2967fec-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Ruột sổ còng",
+      "price": 28000,
+      "prevPrice": 30000,
+      "id": "b29680be-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Vở ghi chép học tập",
+      "price": 9000,
+      "prevPrice": 10000,
+      "id": "b2968186-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Tập vở kẻ ngang",
+      "price": 22000,
+      "id": "b2968258-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Combo 10 Vở kẻ ngang",
+      "price": 46200,
+      "id": "b2968320-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Sổ ghi chép SKT 123",
+      "price": 15400,
+      "id": "b29685aa-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Sổ mini",
+      "price": 1000,
+      "prevPrice": 1800,
+      "id": "b296867c-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Sổ Plas",
+      "price": 10000,
+      "id": "b296874e-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Thước kẻ HAKI",
+      "price": 24250,
+      "prevPrice": 31200,
+      "id": "b2968820-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Thước nhựa 20cm/18cm/15cm",
+      "price": 4000,
+      "id": "b29688e8-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Thước kẻ trong suốt",
+      "price": 4000,
+      "prevPrice": 4500,
+      "id": "b29689ba-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Thước kẻ hoạt hình",
+      "price": 5400,
+      "id": "b2968a8c-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Thước kẻ có kim tuyến",
+      "price": 4000,
+      "id": "b2968d48-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Thước kẻ ánh dạ quang",
+      "price": 7000,
+      "id": "b2968e1a-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Set 7 thước đo",
+      "price": 42000,
+      "id": "b2968ef6-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Bộ thước kẻ kim loại",
+      "price": 36000,
+      "id": "b2968fbe-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Bộ 4 thước eke đóng túi",
+      "price": 23000,
+      "id": "b2969090-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Balo MiniCat BL429",
+      "price": 73000,
+      "id": "b2969158-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Balo MiniCat BL464",
+      "price": 130000,
+      "id": "b296923e-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Balo HARASHR008",
+      "price": 280000,
+      "prevPrice": 300000,
+      "id": "b296932e-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Balo SK 008",
+      "price": 200000,
+      "id": "b29695ae-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Balo laptop chống sốc",
+      "price": 187000,
+      "id": "b29696b2-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Balo SKM 007",
+      "price": 130000,
+      "prevPrice": 150000,
+      "id": "b29697a2-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Hộp Bút Đựng Viết Mini",
+      "price": 33000,
+      "id": "b296989c-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Túi Đựng Bút PVC Trong Suốt",
+      "price": 24300,
+      "prevPrice": 30000,
+      "id": "b2969996-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Túi Đựng Bút Trong Suốt",
+      "price": 8000,
+      "prevPrice": 9000,
+      "id": "b2969a90-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Kệ 3 ngăn đựng đồ dùng học tập",
+      "price": 33500,
+      "id": "b2969b8a-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Ống Đựng Bút 3 Ngăn Lục Giác",
+      "price": 12000,
+      "id": "b2969e32-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Thùng rác mini để bàn",
+      "price": 13000,
+      "id": "b2969f36-3af8-11ed-a261-0242ac120002"
+    },
+    {
+      "name": "Bảng ghi chú mini",
+      "price": 42000,
+      "prevPrice": 45000,
+      "id": "b296a044-3af8-11ed-a261-0242ac120002"
+    }
+  ]
+}
