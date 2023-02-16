@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Spin, Space, Table, Card } from "antd";
+import { ModalDeleteProduct } from "./ModalDeleteProduct";
+import ModalAddEditProduct from "./ModalAddEditProduct";
 import { getListProducts } from "../redux/productsSlice";
-import { useSelector } from "react-redux";
-import React from "react";
-import { Spin, Space, Table, Button } from "antd";
 
 const columns = [
   {
@@ -27,7 +27,8 @@ const columns = [
     render: (_, record) => {
       return (
         <Space size="middle">
-          <a>Edit</a>
+          <ModalDeleteProduct product={record} />
+          <ModalAddEditProduct product={record} />
         </Space>
       );
     },
@@ -38,7 +39,10 @@ export const Products = () => {
   const dispatch = useDispatch();
   const listProduct = useSelector((state) => state);
 
-  console.log("listProducts 1", listProduct);
+  const newData = listProduct.products.data.map((item) => ({
+    ...item,
+    key: item.id,
+  }));
 
   useEffect(() => {
     dispatch(getListProducts());
@@ -46,11 +50,15 @@ export const Products = () => {
 
   return (
     <div>
-      {listProduct.products.isSuccess ? (
-        <Table columns={columns} dataSource={listProduct.products.data} />
-      ) : (
-        <Spin />
-      )}
+      <Card title="Dashboard" bordered={false} extra={<ModalAddEditProduct />}>
+        <div>
+          {listProduct.products.isSuccess ? (
+            <Table columns={columns} dataSource={newData} />
+          ) : (
+            <Spin />
+          )}
+        </div>
+      </Card>
     </div>
   );
 };
